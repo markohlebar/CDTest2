@@ -13,7 +13,6 @@
 		9648F5E11DE0958200213A1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9648F5DF1DE0958200213A1C /* Main.storyboard */; };
 		9648F5E31DE0958200213A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9648F5E21DE0958200213A1C /* Assets.xcassets */; };
 		9648F5E61DE0958200213A1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9648F5E41DE0958200213A1C /* LaunchScreen.storyboard */; };
-		9648F5F11DE0958200213A1C /* CDTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9648F5F01DE0958200213A1C /* CDTestTests.m */; };
 		9648F5FC1DE0958200213A1C /* CDTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9648F5FB1DE0958200213A1C /* CDTestUITests.m */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +45,6 @@
 		9648F5E51DE0958200213A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9648F5E71DE0958200213A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9648F5EC1DE0958200213A1C /* CDTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9648F5F01DE0958200213A1C /* CDTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTestTests.m; sourceTree = "<group>"; };
 		9648F5F21DE0958200213A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9648F5F71DE0958200213A1C /* CDTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9648F5FB1DE0958200213A1C /* CDTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTestUITests.m; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 		9648F5EF1DE0958200213A1C /* CDTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				9648F5F01DE0958200213A1C /* CDTestTests.m */,
 				9648F5F21DE0958200213A1C /* Info.plist */,
 			);
 			path = CDTestTests;
@@ -286,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9648F5F11DE0958200213A1C /* CDTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +510,7 @@
 				9648F6021DE0958200213A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9648F6031DE0958200213A1C /* Build configuration list for PBXNativeTarget "CDTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +519,7 @@
 				9648F6051DE0958200213A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9648F6061DE0958200213A1C /* Build configuration list for PBXNativeTarget "CDTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +528,7 @@
 				9648F6081DE0958200213A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
