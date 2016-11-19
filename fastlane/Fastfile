@@ -15,7 +15,9 @@ platform :ios do
     )
     match(type: "adhoc", readonly: true)
     gym(
-      clean: true
+      clean: true,
+      disable_xcpretty: true,
+      use_legacy_build_api: true
     )
     hockey(
       api_token: ENV["HOCKEY_API_TOKEN"],
