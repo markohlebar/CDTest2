@@ -1,0 +1,7 @@
+app_identifier "com.squid.CDTest" # The bundle identifier of your app
+apple_id "marko.hlebar.ie@gmail.com" # Your Apple email address
+
+team_id "7LN5U2P4GE"  # Developer Portal Team ID
+
+# you can even provide different app identifiers, Apple IDs and team names per lane:
+# More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md
